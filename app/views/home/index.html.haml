@@ -1,0 +1,13 @@
+%h1 Joe's Actual Bank
+
+%p checking account
+.checkingamount 10
+.checking= text_field_tag 'changechecking'
+.checking= submit_tag 'deposit', :id => 'depcheck'
+.checking= submit_tag 'withdrawl', :id => 'withcheck'
+
+%p savings account
+.savingsamount 10
+.savings= text_field_tag 'changesavings'
+.savings= submit_tag 'deposit', :id => 'depsav'
+.savings= submit_tag 'withdrawl', :id => 'withsav'
